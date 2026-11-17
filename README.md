@@ -43,7 +43,7 @@ To reuse saved fits, configure the same scope and settings, then run stages 1–
 
 ## Data
 
-All input files are directly in `data/`.
+All files necessary to redo the analyses are available in `data/`.
 
 | File | Contents |
 |---|---|
