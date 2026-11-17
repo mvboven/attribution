@@ -54,7 +54,7 @@ All input files are directly in `data/`.
 
 Admission files have 365 rows. Columns are ISO `year` and `week`; eight age-specific count columns (`0-2m`, `3-5m`, `6-11m`, `1-2y`, `3-4y`, `65-74y`, `75-84y`, `85+y`); and four virological counts: `VIRINF` (influenza), `VIRRS`, `VIRHMPV`, `VIRPIV`. The age suffixes `m` and `y` mean months and years. Virology is shared between diagnosis scopes. Hospital counts sum RTI diagnosis categories, including the supplied handling of coinfections.
 
-Validation files have 1,460 rows and three columns: `week` (ISO Monday), `component` (pathogen), and `confirmed` (count across the eight age groups). Fractional confirmed counts result from replacing suppressed cells by their midpoint. Validation compares these counts with the sum of age-specific posterior median fitted pathogen intensities.
+Validation files have 1,460 rows and three columns: `week` (ISO Monday), `component` (pathogen), and `confirmed` (count across the eight age groups). Fractional confirmed counts result from replacing suppressed cells ("1-4" instead of "1", "2","3", or "4") by their midpoint. Validation compares these counts with the sum of age-specific posterior median fitted pathogen intensities.
 
 ## Licence
 
