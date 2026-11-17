@@ -1,4 +1,4 @@
-# Respiratory-virus attribution
+# Respiratory virus attribution
 
 R and Stan analysis of weekly respiratory-tract-infection (RTI) hospital-admission counts, 2013–2019, for eight age groups. Separate analyses use all diagnoses and the main diagnosis. The four pathogen series are influenza, RSV, HMPV and parainfluenza (PIV).
 
