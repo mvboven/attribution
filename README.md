@@ -58,4 +58,4 @@ Validation files have 1,460 rows and three columns: `week` (ISO Monday), `compon
 
 ## Licence
 
-Code: BSD 3-Clause; see [LICENSE](LICENSE).
+Code: BSD 3, see [LICENSE](LICENSE).
